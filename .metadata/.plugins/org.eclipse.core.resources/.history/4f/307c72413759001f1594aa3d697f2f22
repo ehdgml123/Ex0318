@@ -1,0 +1,17 @@
+package ex01;
+
+public class 케스트형변환 {
+
+   public static void main(String[] args) {
+	 
+	   short s1 = 32767;
+	   int num1= 5000;
+	   
+	   s1 = (short)num1;
+	   
+	   System.out.println(s1);
+	   
+   }
+	 
+	
+}

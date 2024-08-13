@@ -1,0 +1,21 @@
+package sw.mbccom.kr;
+
+public class Hello {
+
+	public static void main(String[] args) {
+		
+		String x;
+		
+		int y;
+		
+		x = "가나";
+	    y = 2;
+	    
+	    String result = x + y;
+	    
+	    System.out.println(result);
+	 
+
+	}
+
+}
