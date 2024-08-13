@@ -5,7 +5,7 @@ public class 케스트형변환 {
    public static void main(String[] args) {
 	 
 	   short s1;
-	   int num1= 3276;
+	   int num1= 32768;
 	   
 	   s1 = (short)num1;
 	   
