@@ -24,7 +24,7 @@ public class ex05 {
 				 System.out.println("예금액 출력");
 				 int det = scanner.nextInt();
 				 bank += det;
-			 }else if(srtNum == 2) {
+			 }else if(srtNum == 2) {                       // Integer.parseInt() 문자를 정수로 변환해주는 것
 				 System.out.println("출금액 출력:");
 				 int dow = scanner.nextInt();
 				 bank -= dow;
