@@ -9,6 +9,7 @@ public class functionEx01 {
 		func2(11); 
 
 		int n =func3(15);
+		
 		if(n ==1) System.out.println("홀수");
 		else System.out.println("짝수");
 	}
