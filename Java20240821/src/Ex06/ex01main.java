@@ -10,16 +10,19 @@ public class ex01main {
 		s1.setName("차은우");
 		System.out.println(s1.getName());
 		
+		s1.setAge(20);
+		System.out.println(s1.getAge());
+		
+		
+		
 //		System.out.println(abc.job);
 //		
 //		abc.change("차승우");
 //		System.out.println(abc.job);
 		
 		
-		abc s2 = new abc();
-// 클래스 명, 정적메소드
-		s2.change("접근가능");
-		
+	
+
 	
 	}
 

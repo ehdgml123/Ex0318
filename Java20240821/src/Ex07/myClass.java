@@ -2,13 +2,13 @@ package Ex07;
 
  class myClass {
 
-		// 클래스 변수(정적변수)
+		// 클래스 변수(정적변수) - 모든 인스턴스 가 공유하는 변수
 		static String classVariable = "This is an instance variable";
 		
-		// 인스턴스 변수
+		// 인스턴스 변수, 각 객체가 고유하게 가질 수 있는 변수입니다.
 		String instanceVariable;
 		
-		// 생성자
+		// 생성자 -객체가 생성될때 호출됨(인스턴스 변수를 초기화 하는 역)
 		myClass(String instanceVariable){
 			this.instanceVariable = instanceVariable;
 		}
@@ -37,3 +37,8 @@ package Ex07;
 	}
 
 
+// 설명
+ /*
+  * static String classVariable = "This is an instance variable";
+  * */
+  

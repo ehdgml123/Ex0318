@@ -10,12 +10,9 @@ class abc{
 	
 	private String phone;
 	
+	private String abc;
 
-   static String job = "대한민국 배우"; //정적변수
-   
-   static void change(String _job) {  //정적메소드
-	   job = _job;
-   }
+  
 
 
 
