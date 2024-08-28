@@ -15,6 +15,11 @@
     <fullyQualifiedTypeName name="Ex6.Cow"/>
     <fullyQualifiedTypeName name="Ex07.ClassC"/>
     <fullyQualifiedTypeName name="Ex1.LgTv"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="Test.Payment"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.awt.Image"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="emp.Bonus"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="emp.Employee"/>
 </qualifiedTypeNameHistroy>
