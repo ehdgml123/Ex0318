@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="Ex03.PartTimeStudent"/>
-    <fullyQualifiedTypeName name="Ex04.Student"/>
-    <fullyQualifiedTypeName name="Ex1.Animal"/>
-    <fullyQualifiedTypeName name="Ex2.Animal"/>
-    <fullyQualifiedTypeName name="Ex3.Animal"/>
-    <fullyQualifiedTypeName name="Ex3.Dog"/>
-    <fullyQualifiedTypeName name="Ex4.Animal"/>
-    <fullyQualifiedTypeName name="Ex4.Animalmain"/>
-    <fullyQualifiedTypeName name="Ex5.Cat"/>
-    <fullyQualifiedTypeName name="Ex5.Animal"/>
-    <fullyQualifiedTypeName name="Ex6.Cow"/>
     <fullyQualifiedTypeName name="Ex07.ClassC"/>
     <fullyQualifiedTypeName name="Ex1.LgTv"/>
     <fullyQualifiedTypeName name="Test.Payment"/>
     <fullyQualifiedTypeName name="emp.Bonus"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="emp.Employee"/>
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
@@ -31,7 +17,6 @@
     <fullyQualifiedTypeName name="ex05.StringTokenizerMain"/>
     <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
     <fullyQualifiedTypeName name="work.Plane"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="ex01.AppleBox"/>
     <fullyQualifiedTypeName name="ex01.OrangeBox"/>
     <fullyQualifiedTypeName name="ex01.Apple"/>
@@ -47,10 +32,8 @@
     <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="ex08.BoxFactory"/>
     <fullyQualifiedTypeName name="ex09.BoxFactory"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="ex10.BoxFactory"/>
     <fullyQualifiedTypeName name="ex11.BoxFactory"/>
-    <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="ex12.BoxFactory"/>
     <fullyQualifiedTypeName name="test.Student"/>
     <fullyQualifiedTypeName name="test.Worker"/>
@@ -59,4 +42,22 @@
     <fullyQualifiedTypeName name="test.Person"/>
     <fullyQualifiedTypeName name="java.lang.invoke.StringConcatException"/>
     <fullyQualifiedTypeName name="test.Container"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="ex01.ArrayList01"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Target"/>
+    <fullyQualifiedTypeName name="java.util.TreeSet"/>
+    <fullyQualifiedTypeName name="ex14.Person"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="ex15.Stack01"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
