@@ -31,7 +31,7 @@ class Papers{
 		}
 		
 		
-		return new Printer();
+		return new Printer();  // 객체를 생성하는  목적
 	}
 	
 	

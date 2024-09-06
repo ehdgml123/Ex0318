@@ -14,12 +14,11 @@ class SandMessage{
 	   this.msg = msg;
   }
 
-public String getMsg() {
-	return msg;
-}
-
-
  
+ public String getMsg() {
+	return msg;
+  }
+
  
 }
 

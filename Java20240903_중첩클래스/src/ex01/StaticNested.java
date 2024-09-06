@@ -2,7 +2,7 @@ package ex01;
 
 
 
-
+//  외부에서 외부만 공개하고 클래스 안에 있는 내부 클래스 는 공개 하지 않겠다.
 class Outer{
 	private static int num;
 	

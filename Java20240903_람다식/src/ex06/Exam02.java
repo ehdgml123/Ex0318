@@ -6,7 +6,10 @@ package ex06;
 
 @FunctionalInterface  // -> 인터페이스 추상메소드 1개 존재
 interface MaxInterface2{
+	
 	void max(int num1, int num2);
+
+	
 	
 	public static void func() {};
 	
