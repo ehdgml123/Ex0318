@@ -31,8 +31,8 @@
 		<item key="create_package_info_java" value="false"/>
 	</section>
 	<section name="NewClassCreationWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="556"/>
-		<item key="DIALOG_Y_ORIGIN" value="237"/>
+		<item key="DIALOG_X_ORIGIN" value="823"/>
+		<item key="DIALOG_Y_ORIGIN" value="194"/>
 		<item key="DIALOG_WIDTH" value="575"/>
 		<item key="DIALOG_HEIGHT" value="659"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
@@ -42,7 +42,7 @@
 	</section>
 	<section name="NewClassWizardPage">
 		<item key="create_constructor" value="false"/>
-		<item key="create_unimplemented" value="false"/>
+		<item key="create_unimplemented" value="true"/>
 	</section>
 	<section name="completion_proposal_size">
 	</section>

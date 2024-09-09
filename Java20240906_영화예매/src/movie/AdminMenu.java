@@ -38,6 +38,9 @@ private static final AdminMenu instance = new AdminMenu(null);
 		 case "2" :
 			 printAllMovies();   // 영화목록 출력
 			 return this;
+		 case "3" :
+			 deleteMovie();
+			 return this;
 		 
 		 
 		                   // mainmenu 보임
@@ -47,6 +50,14 @@ private static final AdminMenu instance = new AdminMenu(null);
 		 }
 	}
 	
+	private void deleteMovie() {
+		 printAllMovies();
+		 System.out.println("삭세할 영화를 ID값을 입력하세요:");  // 1708309377
+		 Movie.delete(sc.nextLine());   // Movie.delete(1708309377); --> 함수호출
+		 System.out.println(">> 삭제되었습니다");
+	}
+
+
 	private void createMovies() {
 		 System.out.println("제목: ");
 		 String title = sc.nextLine();
