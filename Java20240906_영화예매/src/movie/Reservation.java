@@ -41,6 +41,13 @@ public class Reservation {
 	public Reservation(long movieId,String movieTitle,String SeatName ) {
 		
 		
+		/*
+		 * this(Instant.now().toEpochMilli(), movieId, movieTitle, SeatName)는 동일한 클래스 안에서, 
+		 * 네 개의 인자를 받는 다른 생성자를 호출합니다.
+             이 호출로 인해 Instant.now().toEpochMilli()로 생성된 시간 정보와 
+             함께 movieId, movieTitle, SeatName이 전달됩니다. 
+		 */
+		// Instant.now().toEpochMilli() -> 예약이 생성되는 순간의 현재 시간을 밀리초로 변환한 값
 		this(Instant.now().toEpochMilli(),movieId, movieTitle, SeatName);
 		
 	}
@@ -226,9 +233,17 @@ public class Reservation {
 
 
 	public void save() throws IOException {
-		
+		/*
+		 * FileWriter -> 파일에 텍스트 데이터를 기록
+		 *  new FileWriter(file, true); 
+		 *  -> 기존 파일의 내용이 유지되며, 
+		 *  새로 작성된 데이터가 기존 데이터 뒤에 추가됩니다.
+		 */  
 		FileWriter fw = new FileWriter(file, true);  
+		// 메서드를 호출하여 객체의 상태를 문자열로 변환한 뒤, 
+		// 이 문자열을 파일에 작성
 		fw.write(this.toFileString() + "\n");
+		//FileWriter를 닫아
 		fw.close();
 	}
 

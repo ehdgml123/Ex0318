@@ -53,17 +53,32 @@ public class Seats {
 
 	public void mark(String seatName) throws Exception {
 		
+		// 입력으로 받은 seatName을 문자 배열로 변환합니다
+		// 예 "B-4"인 경우 temp 배열은 ['B', '-', '4']로 변환
 		char[] temp = seatName.toCharArray();
 		// B - 4
 		
 		
+		/*                    'B'             아스키 코드표 
+		 *    int row = temp[0] - 'A';  B(66) - A(65) = 1   row = 1
+		 *   	int col = temp[2] - '1';  52 - 49 = col =3
+		 * 
+		 */
 		int row = temp[0] - 'A';    // 행 인덱스 계산   B(66)-A(65)
-		int col = temp[2] - '1';    // 열 인덱스 계산   
+		int col = temp[2] - '1';    // 열 인덱스 계산    52 - 49
 		
-		               // 행     열
+		
+		/*
+		 * map[row][col]에서 해당 좌석이
+		 *  "X"인 경우, 이미 예약된 좌석임
+		 * 예외를 발생시켜 "이미 예매된 좌석입니다"라는 
+		 *  메시지와 함께 예매가 실패
+		  */         //   행  1   열  3
 		if("X".equals(map[row][col])) {
 			 throw new Exception("이미 예매된 좌석입니다");
 		}
+		// 좌석이 예매되지 않은 상태라면, 해당 좌석(map[row][col])을 
+		// "X"로 마킹하여 예매된 좌석으로 표시
 		map[row][col] = "X";   // 예매 좌석 확정 
 		 
 	}
@@ -75,6 +90,21 @@ public class Seats {
         System.out.println("      S C R E E N     ");
 		System.out.println("----------------------");
 		
+		
+		/*
+		 *    for(int i=0; i<MAX_ROW; i++) {
+			     System.out.printf("%c ", 'A'+i);
+		 *    - MAX_ROW(행) 만큼 돈다 
+		 *     'A' 에서 시작해서 행의 이름을 출력
+		 *     i 가 증가하면서 A,B,C 등 행 레이블 출력
+		 * 
+		 * for(int j=0; j<MAX_COL; j++) {
+				System.out.printf(" %s", map[i][j]);
+				- MAX_COL(열) 만큼 돈다
+				  각 좌석상태를 나타내는 값을 
+				  map 배열에 가져와 출력함
+		 * 
+		 */
 		for(int i=0; i<MAX_ROW; i++) {
 			System.out.printf("%c ", 'A'+i);
 			for(int j=0; j<MAX_COL; j++) {

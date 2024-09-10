@@ -45,9 +45,9 @@ public class MainMenu extends AbstractMenu {
 			  }
 		   
 			  /// AdminMenu 클래스의 싱글톤 인스턴스를 반환
-			  AdminMenu adminMenu = AdminMenu.getInstance();
-			  adminMenu.setPrevMenu(this);
-			  return adminMenu;
+			  AdminMenu adminMenu = AdminMenu.getInstance(); 
+			  adminMenu.setPrevMenu(this); // 현재 메인메뉴 를 관리자 객체가 복귀할 이전메뉴 등록
+			  return adminMenu;  // 설정이 끝나면 관리자 메뉴 메뉴 객체를 반환 
 			 
 		 
 		 case "q" : return prevMenu;   //q 누르면 이전메뉴
@@ -59,7 +59,7 @@ public class MainMenu extends AbstractMenu {
 		
 		try {                       // movie.txt 영화 목록을 movies 에 저장 
 			List<Movie> movies = Movie.findAll(); // < 영화 목록 보여주기
-			
+			// 향상된 for문 
 			for(Movie movie : movies)
 				System.out.println(movie);
 			
@@ -87,6 +87,7 @@ public class MainMenu extends AbstractMenu {
 	        Reservation reservation = 
 	        		new Reservation(movie.getId(), movie.getTitle(), seatName);
 	        
+	        // 호출
 	        reservation.save();
 	        System.out.println(">> 예매가 완료되었습니다.");
 	        System.out.printf(">> 발급번호 : %d\n", reservation.getId());
